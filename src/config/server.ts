@@ -9,7 +9,7 @@ app.get("/hello", (req, res) => {
 
 app.get("/mushrooms", async (req, res)=> {
 
-    const client = new Client({"host": "ec2-3-210-23-22.compute-1.amazonaws.com", "database": "d9m67v74a5u802", "user": "vymhwjkzrivzdi", "password": "68c495f35dbbef73e04ed0eafaa332c626b3c52fca87eeb26f823acee6e5accc");
+    const client = new Client({"host": "ec2-3-210-23-22.compute-1.amazonaws.com", "database": "d9m67v74a5u802", "user": "vymhwjkzrivzdi", "password": "xyz"});
     console.log('before connect')
     await client.connect();
     console.log('connected')
